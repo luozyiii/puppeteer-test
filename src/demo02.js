@@ -4,7 +4,7 @@ const puppeteer = require('puppeteer');
 const pathToExtension = require('path').join(__dirname, '../chrome/chrome-win/chrome.exe')
 
 const options = { 
-  headless: false, // 是否无界面
+  // headless: false, // 是否无界面 下载pdf不能设置该参数 默认true
   executablePath: pathToExtension
 }
 
