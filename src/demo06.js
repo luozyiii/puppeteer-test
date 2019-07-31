@@ -1,5 +1,6 @@
 /*
   网站爬取内容
+  babel-node src/demo06.js
 */
 
 const puppeteer = require('puppeteer');
@@ -77,7 +78,7 @@ const E = async() => {
             })
 
             await page.screenshot({
-                path: 'demo3.png',// 拍个照证明我们确实是因为调入深渊了
+                path: 'test/demo06.png',// 拍个照证明我们确实是因为调入深渊了
                 fullPage: true
             })
         }
