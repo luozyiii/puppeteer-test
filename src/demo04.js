@@ -41,7 +41,7 @@ const D = async () => {
   const browser = await puppeteer.launch(options)
   const page = await browser.newPage()
   await page.goto('https://www.baidu.com')
-  await page.screenshot({path: 'test/example.png'})
+  await page.screenshot({path: 'test/demo04.png'})
 
   await browser.close();
 }
