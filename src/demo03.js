@@ -1,6 +1,6 @@
 /*
   在页面上执行脚本
-  node src/demo03.js 
+  node src/demo03.js
 */
 
 const puppeteer = require('puppeteer');

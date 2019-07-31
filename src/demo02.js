@@ -1,6 +1,6 @@
 /*
   打开网页 创建pdf
-  node src/demo02.js 
+  node src/demo02.js
 */
 
 const puppeteer = require('puppeteer');

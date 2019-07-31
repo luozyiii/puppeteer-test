@@ -5,7 +5,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # Chromium 环境 win、mac、linux
-chrome/
+chrome-mac
+chrome-win
 
 # Editor directories and files
 .idea
