@@ -1,10 +1,14 @@
 /*
-  打开网页 截图保存
+  import 语法支持
 */
+
+import {
+  EXECUTABLEPATH_WIN,
+} from '@/config'
 
 const puppeteer = require('puppeteer')
 
-const pathToExtension = require('path').join(__dirname, '../chrome/chrome-win/chrome.exe')
+const pathToExtension = require('path').join(__dirname, EXECUTABLEPATH_WIN)
 
 const options = { 
   headless: false, // 默认无头模式， false显示浏览器

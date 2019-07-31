@@ -1,6 +1,8 @@
 # puppeteer-test
 puppeteer 是 Google Chrome 团队官方的无界面（Headless）Chrome 工具。正因为这个官方声明，许多业内自动化测试库都已经停止维护，包括 PhantomJS。Selenium IDE for Firefox 项目也因为缺乏维护者而终止。
 puppetter可以生成页面的截图和PDF，抓取SSR，抓取网站内容，模拟登陆等。
+https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#class-browser
+
 
 版本要求：Puppeteer 要求使用 Node v6.4.0，但因为文中大量使用 async/await，需要 Node v7.6.0 或以上； 推荐使用yarn
 
